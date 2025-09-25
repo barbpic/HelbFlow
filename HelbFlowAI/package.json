@@ -11,7 +11,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "preview": "vite preview",
-    "vercel-build": "npm ci && npm run build",
+    "vercel-build": "npm ci && npm run build"
 
   },
   "dependencies": {
