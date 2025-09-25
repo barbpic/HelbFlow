@@ -10,5 +10,11 @@
     "@types/node": "^24.5.2",
     "@vitejs/plugin-react": "^5.0.3",
     "vite": "^7.1.6"
+  },
+  
+  "scripts": {
+    "dev": "vite",
+    "build": "cd client && vite build",
+    "vercel-build": "npm install && npm run build"
   }
 }
